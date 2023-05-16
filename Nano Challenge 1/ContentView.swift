@@ -23,13 +23,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Currency", systemImage: "dollarsign.arrow.circlepath")
                 }
-        }.background(content: {
-            Rectangle()
-                .fill(.white)
-                .ignoresSafeArea()
-                .blur(radius: 2)
-                .padding(.top, 25)
-        })
+        }
     }
 }
     struct ContentView_Previews: PreviewProvider {
